@@ -1,0 +1,32 @@
+h1{
+    font-size:25px;
+    padding-top: 5px;
+}
+
+p{
+    color: rgb(122, 122, 122);
+    font-size:15px;
+}
+
+img{
+    border-radius: 50%;
+}
+
+.box{
+    border-radius: 2%;
+    background-color: #ffff;
+    width: 300px;
+    border: 2px solid black;
+    font-family: arial;
+    font-size: 18px;
+
+    margin: 200px 200px 200px 200px;
+    padding: 20px;
+}
+
+button{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    border-radius: 10%;
+}
