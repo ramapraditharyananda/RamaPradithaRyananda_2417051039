@@ -11,6 +11,7 @@ $pesan = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
+    // Logika Registrasi
     if (isset($_POST['register'])) {
         $nama = trim($_POST['nama']);
         $password = $_POST['password'];
@@ -43,6 +44,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
     }
 
+    // Logika Login
     if (isset($_POST['login'])) {
         $nama = trim($_POST['nama']);
         $password = $_POST['password'];
